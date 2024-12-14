@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(210, 224, 235);
+}
+.container h1{
+    text-align: center;
+    color: rgb(43, 57, 132);
+}
+.brown{
+    border-color: brown;
+}
+.container{
+    width: 800px;
+    height: auto;
+}
+.form-control:hover{
+
+    background-color: rgb(255, 255, 255);
+    border-color: yellow;
+    
+}
+.age{
+
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Age:hover{
+border-color: yellow
+
+}
+.form-label{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.genx{
+    color: black;
+    font-weight: 400px;
+}

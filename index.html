@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container ">
+        <h1> Account Detail Form</h1>
+
+        <form class="m-5" >
+
+            <div class="alert alert-danger" id="warName" style="display: none;">
+
+            </div>
+
+            <div class="m-5">
+                <label type="text" class="form-label">Enter Your Name</label>
+                <input type="text" minlength="3" maxlength="50"  class="form-control brown" id="name" required>
+                <label class="form-label mt-3">Email address</label>
+                <input type="email" class="form-control brown" id="exampleInputEmail" aria-describedby="emailHelp" required>
+
+                <label for="exampleInputPassword1" class="form-label mt-3">Phone no</label>
+                <input type="text" class="form-control brown" id="phone" required>
+                <label for="exampleInputAge" class="form-check-label mt-3 age">Age</label>
+                <input type="text" id="Age" class="brown mt-2 d-block" required>
+
+
+
+                <form >
+
+                    <label class="d-block mt-5">
+                        <input type="radio"class='genx ' name="gender" value="male" onclick="updateInputField()"> Male
+                    </label>
+                    <label>
+                        <input type="radio" class='genx' name="gender" value="female" onclick="updateInputField()"> Female
+                    </label><br>
+
+                    <input type="text" id="inputField" name="inputField" disabled>
+                </form>
+
+                <label for="address" class="d-block mt-3 age">Address </label>
+                <textarea class="form-control brown" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+
+                <button c type="submit" class=" mt-3 btn btn-primary d-block" id="submit">Submit</button>
+            </div>
+        </form>
+
+        <div class="alert alert-success text-center" id="sucess" style="display: none;">
+
+        </div>
+    </div>
+
+
+
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
